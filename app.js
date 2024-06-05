@@ -11,28 +11,29 @@ export default function App() {
       
       {/* Image Display */}
       <Image 
-        source={require('./assets/profile.png')} 
+        source={require('./assets/images/Profile.png')} 
         style={styles.profileImage}
       />
       
+ 
       {/* Information Section */}
       <ScrollView style={styles.infoSection}>
-        <Text style={styles.infoText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Text>
-        <Text style={styles.infoText}>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Text>
-        <Text style={styles.infoText}>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</Text>
-        <Text style={styles.infoText}>Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</Text>
-        <Text style={styles.infoText}>In voluptate velit esse cillum dolore eu fugiat nulla pariatur.</Text>
+        <Text style={styles.infoText}>Welcome to My application! Here, you will find a simple Profile Page using React and Expo.</Text>
+        <Text style={styles.infoText}>I am currently a Junior at North Seattle College in the Application Development Program.</Text>
+        <Text style={styles.infoText}>I am still very new to Expo but enjoying it thus far.</Text>
+        <Text style={styles.infoText}>Please enjoy this simple web app and let me know if you have any questions or feedback.</Text>
+        <Text style={styles.infoText}>Thank you</Text>
       </ScrollView>
       
       {/* Input Form */}
       <View style={styles.formSection}>
         <TextInput 
           style={styles.input} 
-          placeholder="Enter your name" 
+          placeholder="Parys Unangst" 
         />
         <TextInput 
           style={styles.input} 
-          placeholder="Enter your comment" 
+          placeholder="Welcome to my first Expo Page" 
         />
         <Text style={styles.submitButton}>Submit</Text>
       </View>
